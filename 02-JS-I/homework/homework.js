@@ -71,7 +71,7 @@ function tienenMismaLongitud(str1, str2) {
   // Devuelve "true" si las dos strings tienen la misma longitud
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (str1 === str2) {
+  if (str1 == str2) {
     return true;
   } else {
     return false;
@@ -93,8 +93,12 @@ function mayorQueCincuenta(num) {
   // Devuelve "true" si el argumento de la función "num" es mayor que cincuenta
   // De lo contrario, devuelve "false"
   // Tu código:
-  
-}
+  if (num > 50) {
+    return true;
+    } else {
+      return false;
+    }
+  }
 
 function obtenerResto(x, y) {
   // Obten el resto de la división de "x" entre "y"
