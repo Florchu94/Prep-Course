@@ -36,6 +36,7 @@ if (status === 1) {
 } else {
   return "Offline"
 }
+}
 
 function saludo(idioma) {
   // Devuelve un saludo en tres diferentes lenguajes:
