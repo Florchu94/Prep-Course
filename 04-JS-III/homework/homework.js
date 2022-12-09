@@ -26,9 +26,10 @@ function incrementarPorUno(array) {
   // Aumenta cada entero por 1
   // y devuelve el array
   // Tu código:
-for (let i = 0; i < array.length; i++) {
- array [i] = array [i] +1
-} return array;
+  var nuevoArray = []
+  for (let i = 0; i < array.length; i++) {
+   nuevoArray [i] = array [i] +1
+ } return nuevoArray;
 }
 
 
@@ -65,6 +66,11 @@ function arrayContiene(array, elemento) {
   // Comprueba si el elemento existe dentro de "array"
   // Devuelve "true" si está, o "false" si no está
   // Tu código:
+for (let i = 0; i < array.length; i++) {
+ if (array === elemento) {
+  return true;
+  } return false;
+ }
 }
 
 
