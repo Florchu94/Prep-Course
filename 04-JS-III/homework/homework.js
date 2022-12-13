@@ -26,10 +26,10 @@ function incrementarPorUno(array) {
   // Aumenta cada entero por 1
   // y devuelve el array
   // Tu código:
-  var nuevoArray = [];
+  var nuevoArray = []
   for (let i = 0; i < array.length; i++) {
-   nuevoArray[i] = array[i] + 1;
-  } return nuevoArray;
+   nuevoArray [i] = array [i] +1
+ } return nuevoArray;
 }
 
 
@@ -91,7 +91,11 @@ function promedioResultadosTest(resultadosTest) {
   // "resultadosTest" debe ser una matriz de enteros (int/integers)
   // Itera (en un bucle) los elementos del array, calcula y devuelve el promedio de puntajes
   // Tu código:
-  return agregarNumeros(resultadosTest) / resultadosTest.length;
+  var suma = 0
+  for (var i = 0; i < resultadosTest.length; i++){
+  suma = suma + resultadosTest[i]
+}
+return suma / resultadosTest.length;
 }
 
 
@@ -100,7 +104,7 @@ function numeroMasGrande(numeros) {
   // Devuelve el número más grande
   // Tu código:
   var maximo = numeros [0];
-  for (let i = 0; i < numeros.length; i++) {
+  for (let i = 1; i < numeros.length; i++) {
     if (numeros[i] > maximo) {
       maximo = numeros[i]
     }
