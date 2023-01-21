@@ -1,0 +1,21 @@
+h1{
+    color:rgb(191, 56, 11);
+}
+img{
+    width: 400px;
+}
+#thirdDiv{
+    height: 850px;
+    width: 500px;
+    background-color: rgb(48, 141, 66);
+    padding: 50px;
+    border: 2px solid rgb(191, 56, 11);
+}
+#spainId{
+    font-size: 18px;
+    margin: 50px;
+}
+.divClass{
+    padding: 20px;
+    border: 2px solid chocolate;
+}
