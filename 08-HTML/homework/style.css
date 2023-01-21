@@ -1,5 +1,20 @@
 h1 {
-    color: rgb(191, 56, 11);
+    color: rgb(233, 187, 3);
+
+}
+
+h3 {
+    color: rgb(233, 187, 3);
+}
+
+h4 {
+    color: rgb(233, 187, 3);
+}
+
+#spanId {
+    color: rgb(233, 187, 3);
+    font-size: 18px;
+    margin: 50px;
 }
 
 img {
@@ -8,18 +23,60 @@ img {
 
 #thirdDiv {
     height: 850px;
-    width: 500px;
-    background-color: rgb(48, 141, 66);
-    padding: 50px;
-    border: 2px solid rgb(191, 56, 11);
+    width: 50%;
+    background-color: rgba(48, 141, 67, 0.159);
+    padding: 20px;
+    border: 2px solid rgba(233, 187, 3);
+    margin: 0 auto;
+
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
-#spainId {
-    font-size: 18px;
-    margin: 50px;
+ul {
+    width: 50%;
+    margin: 0 auto;
 }
 
 .divClass {
     padding: 20px;
-    border: 2px solid chocolate;
+    border: 2px solid rgb(53, 51, 51);
+    background-image: url(https://images4.alphacoders.com/741/74176.jpg);
+
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 60%;
+    width: 50%;
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+a:visited {
+    color: darkviolet;
+}
+
+a:active {
+    color: blue;
+    font-size: 15px;
+}
+
+a:hover {
+    font-size: 15px;
+    color: rgb(70, 70, 245);
+}
+
+body {
+    background-image: url(https://images8.alphacoders.com/567/567297.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
 }
